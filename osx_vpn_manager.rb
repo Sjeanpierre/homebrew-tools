@@ -11,6 +11,6 @@ class OsxVpnManager < Formula
   end
 
   test do
-    assert_equal "0.0.3", `#{bin}/vpn --version`
+    assert_equal "0.0.4", `#{bin}/vpn --version`
   end
 end
