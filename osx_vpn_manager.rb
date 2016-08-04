@@ -1,8 +1,8 @@
 class OsxVpnManager < Formula
   desc "Simple command-line vpn manager for OSX"
   homepage "https://github.com/Sjeanpierre/osx_vpn_manager"
-  url "https://github.com/Sjeanpierre/osx_vpn_manager/releases/download/0.0.4/osx_vpn_manager-0.0.4.tar.gz"
-  sha256 "1c4908d22b99d568f37e011ac3afa4b5c1b163c5553b99d4d327dafa63bc5ab3"
+  url "https://github.com/Sjeanpierre/osx_vpn_manager/releases/download/0.0.5/osx_vpn_manager-0.0.5.tar.gz"
+  sha256 "c8ff67bc31516dae526f9074b50753482a910c56a9410b14d91a41392d121b3b"
 
   depends_on "macosvpn"
 
@@ -11,6 +11,6 @@ class OsxVpnManager < Formula
   end
 
   test do
-    assert_equal "0.0.4", `#{bin}/vpn --version`
+    assert_equal "0.0.5", `#{bin}/vpn --version`
   end
 end
